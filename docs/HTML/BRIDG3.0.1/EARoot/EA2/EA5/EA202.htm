@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Study Conduct Sub-Domain::PerformedObservationResult</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">PerformedObservationResult  : public   class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">6/14/2007 10:23:21 AM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">1/30/2010 6:21:49 AM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">BRIDG SCC</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Release 3.0</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{3DFFDCBD-226F-41b6-9D1D-EE96D8652BAC}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="../EA11.htm">UML-Based Comprehensive BRIDG Model Diagram</a>, <a href="../EA1/EA22.htm">View AE: Adverse Event</a>, <a href="EA177.htm">View SC: Study Conduct</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;p&gt;The finding obtained by observing, monitoring, measuring or otherwise qualitatively or quantitatively recording one or more aspects of physiologic or psychologic processes.&lt;br/&gt;&lt;/p&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Attribute</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public II</i><br /><strong>&nbsp;&nbsp;identifier</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>Map:CTOM=Imaging.identifier<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The unique symbol that establishes identity of the observation result.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;typeCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>Map:CTOM=ClinicalResult.value<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value specifying the kind of observation result.&lt;br /&gt;&lt;br /&gt;For example, a single blood pressure observation has two results, one with typeCode =&nbsp;<WBR> systolic and one with typeCode = diastolic.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public ANY</i><br /><strong>&nbsp;&nbsp;result</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>Map:AE=Animal.overallStateOfHealthCode<br>Map:AE=InvestigativeSubject.gestationPeriod<br>Map:AE=ProductInvestigation.evaluationResultCode<br>Map:AE=AdverseEvent.adverseEventTermCode<br>Map:AE=Assessment.codedInterpretation<br>Map:AE=Assessment.textInterpretation<br>Map:AE=Person.numberOfSiblings<br>Map:AE=ProductObservation.value<br>Map:AE=AdverseEvent.reactionText<br>Map:C3PR=StratificationCriterionPermissbleAnswer.permissibleAnswer<br>Map:CTOM=DiseaseResponse.responseCode<br>Map:CTOM=FemaleReproductiveCharacteristic.liveBirthCount<br>Map:CTOM=DiseaseResponse.responseCodeSystem<br>Map:CTOM=Participant.employmentStatusOtherText<br>Map:CTOM=DiseaseResponse.courseDispositionCode<br>Map:CTOM=FemaleReproductiveCharacteristic.menopauseAge<br>Map:CTOM=Specimen.volumeUnitOfMeasureCode<br>Map:CTOM=QualitativeEvaluation.menstrualIndicator<br>Map:CTOM=DeathSummary.deathCauseCode<br>Map:CTOM=Participant.employmentStatusCode<br>Map:CTOM=Diagnosis.diseaseDiagnosisCode<br>Map:CTOM=Specimen.volume<br>Map:CTOM=QualitativeEvaluation.painIndexCode<br>Map:CTOM=LesionEvaluation.evaluationCode<br>Map:CTOM=CancerStage.stageCode<br>Map:CTOM=AdverseEvent.outcomeCode<br>Map:CTOM=FemaleReproductiveCharacteristic.abortionIndicator<br>Map:CTOM=ParticipantEligibilityAnswer.answerText<br>Map:CTOM=QualitativeEvaluation.menstrualPatternTypeCode<br>Map:CTOM=FemaleReproductiveCharacteristic.stillBirthCount<br>Map:CTOM=ClinicalResult.value<br>Map:CTOM=QualitativeEvaluation.performanceStatusCodeSystem<br>Map:CTOM=Histopathology.grossExamResultCode<br>Map:CTOM=ClinicalResult.valueUnitOfMeasureCode<br>Map:CTOM=Participant.householdIncomeCode<br>Map:CTOM=CancerStage.stageCodeSystem<br>Map:CTOM=AdverseEvent.descriptionText<br>Map:CTOM=QualitativeEvaluation.survivalStatusDescriptionText<br>Map:CTOM=FemaleReproductiveCharacteristic.firstLiveBirthAge<br>Map:CTOM=QualitativeEvaluation.anamResultAccuracyPercent<br>Map:CTOM=QualitativeEvaluation.performanceStatusCode<br>Map:CTOM=Person.employmentStatusCode<br>Map:CTOM=DeathSummary.deathCauseText<br>Map:CTOM=Diagnosis.diseaseDiagnosisCodeSystem<br>Map:CTOM=QualitativeEvaluation.survivalStatusCode<br>Map:CTOM=Person.householdIncomeCode<br>Map:CTOM=QualitativeEvaluation.painIndexCodeSystem<br>Map:HL7SP=VerificationEvent.value<br>Map:Lab=LabResult.numericResult<br>Map:Lab=LabResult.referenceTextList<br>Map:Lab=LabResult.textResult<br>Map:Lab=LabResult.numericPrecision<br>Map:SDTM IG=SC.SCORRES<br>Map:SDTM IG=CM.CMOCCUR<br>Map:SDTM IG=IE.IEORRES<br>Map:SDTM IG=VS.VSORRES<br>Map:SDTM IG=AE.AESMIE<br>Map:SDTM IG=TS.TSVAL<br>Map:SDTM IG=LB.LBORRESU<br>Map:SDTM IG=PE.PESTRESN<br>Map:SDTM IG=IE.IESTRESC<br>Map:SDTM IG=VS.VSSTRESC<br>Map:SDTM IG=AE.AESCONG<br>Map:SDTM IG=AE.AESLIFE<br>Map:SDTM IG=EG.EGORRES<br>Map:SDTM IG=LB.LBSTRESU<br>Map:SDTM IG=LB.LBORRES<br>Map:SDTM IG=AE.AESOD<br>Map:SDTM IG=EG.EGSTRESU<br>Map:SDTM IG=QS.QSSTRESC<br>Map:SDTM IG=QS.QSSTRESU<br>Map:SDTM IG=AE.AESDTH<br>Map:SDTM IG=PE.PEORRES<br>Map:SDTM IG=VS.VSORRESU<br>Map:SDTM IG=SC.SCSTRESU<br>Map:SDTM IG=AE.AEOUT<br>Map:SDTM IG=LB.LBSTRESC<br>Map:SDTM IG=MH.MHTERM<br>Map:SDTM IG=PE.PESTRESU <br>Map:SDTM IG=LB.LBLOINC<br>Map:SDTM IG=SC.SCSTRESN<br>Map:SDTM IG=AE.AERELNST<br>Map:SDTM IG=VS.VSSTRESN<br>Map:SDTM IG=AE.AESDISAB<br>Map:SDTM IG=QS.QSORRESU<br>Map:SDTM IG=PE.PEORRESU<br>Map:SDTM IG=EG.EGSTRESN<br>Map:SDTM IG=QS.QSORRES<br>Map:SDTM IG=AE.AEDECOD<br>Map:SDTM IG=AE.AETERM<br>Map:SDTM IG=EG.EGSTRESC<br>Map:SDTM IG=SC.SCSTRESC<br>Map:SDTM IG=SC.SCORRESU<br>Map:SDTM IG=MH.MHOCCUR<br>Map:SDTM IG=DS.DSTERM<br>Map:SDTM IG=VS.VSSTRESU<br>Map:SDTM IG=EG.EGORRESU<br>Map:SDTM IG=AE.AESCAN<br>Map:SDTM IG=MH.MHDECOD<br>Map:SDTM IG=PE.PESTRESC<br>Map:SDTM IG=EG.EGLOINC<br>Map:SDTM IG=DV.DVDECOD<br>Map:SDTM IG=LB.LBSTRESN<br>Map:SDTM IG=VS.VSLOINC<br>Map:SDTM IG=QS.QSSTRESN<br>Map:SDTM IG=AE.AEREL<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Data or information that is determined by an act of observation.&lt;br /&gt;&lt;br /&gt;For example, the result of a lab test, physical finding, self-reported symptom.&lt;br /&gt;&lt;br /&gt;For example, the adverse event term code.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public ST</i><br /><strong>&nbsp;&nbsp;resultCodeModifiedText</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>Map:SDTM IG=AE.AEMODIFY<br>Map:SDTM IG=PE.PEMODIFY<br>Map:SDTM IG=MH.MHMODIFY<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A character string that is a revision of the original text observation result to enable the coding of the text. &lt;br /&gt;&lt;br /&gt;For example, if the originalText is &quot;hedache&quot;, the resultCodeModifiedText could be changed to &quot;headache&quot;, so that the text can be successfully coded.&lt;br /&gt;&lt;br /&gt;NOTE: In the context of BRIDG, text modification occurs a single time for a given instance of originalText. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;targetAnatomicSiteCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>Map:CTOM=LesionDescription.anatomicSiteCode<br>Map:CTOM=LesionDescription.anatomicSiteCodeSystem<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value specifying the anatomic location that is the focus of an observation result.&lt;br /&gt;&lt;br /&gt;For example, arm for skin rash.&lt;br /&gt;&lt;br /&gt;NOTE:&nbsp;<WBR> The target site of the result may be different than the target site of the activity (PerformedObservation) that generated it.&nbsp;<WBR> For example, a chest x-ray (observation) has the target site of chest while the result might show an infiltration in the left lower lobe of the lung (target site of result), or a dermatological exam may check the skin across the whole body (target site of observation) while the result might identify a rash on the right leg (target site of result).
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;targetAnatomicSiteLateralityCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value specifying the side of the body (or a paired organ) that is a target site for an observation result. &lt;br /&gt;&lt;br /&gt;For example, Bilateral, Left, Right.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;bodySystemCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value specifying the anatomical structure that consists of organs and organ subclasses responsible for certain body functions. &lt;br /&gt;&lt;br /&gt;For example, gastrointestinal system, urinary system, hematopoietic system.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;confidentialityCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>AE:Exclude=True<br>Map:CTOM=Observation.confidentialityCode<br>Map:CTOM=LesionDescription.confidentialityCode<br>Map:CTOM=Histopathology.confidentialityCode<br>Map:CTOM=ClinicalResult.confidentialityCode<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value specifying the degree of privacy applicable for the observation result. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;uncertaintyCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>AE:Exclude=True<br>Map:CTOM=Histopathology.uncertaintyCode<br>Map:CTOM=LesionDescription.uncertaintyCode<br>Map:CTOM=ClinicalResult.uncertaintyCode<br>Map:CTOM=Observation.uncertaintyCode<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value specifying whether and to what degree this evaluation or observation has been asserted to be in doubt in any way. &lt;br /&gt;&lt;br /&gt;For example, a patient might have had a cholecystectomy procedure in the past, but isn&#39;t sure what the outcome was. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public TS.DATETIME</i><br /><strong>&nbsp;&nbsp;reportedDate</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>Map:AE=Reporter.initialReporterIndicator<br>Map:CTOM=QualitativeEvaluation.evaluationDate<br>Map:CTOM=Histopathology.reportingDate<br>Map:CTOM=FemaleReproductiveCharacteristic.menopauseStartDate<br>Map:CTOM=LesionEvaluation.evaluationDate<br>Map:CTOM=Diagnosis.evaluationDate<br>Map:CTOM=ClinicalResult.reportingDate<br>Map:CTOM=LesionDescription.reportingDate<br>Map:CTOM=Assessment.evaluationDate<br>Map:CTOM=DiseaseResponse.evaluationDate<br>Map:CTOM=Observation.reportingDate<br>Map:SDTM IG=MH.MHDTC<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The date (and time) on which the result is reported.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public ST</i><br /><strong>&nbsp;&nbsp;comment</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i>AE:Exclude=True<br>Map:CTOM=DiseaseResponse.commentText<br>Map:CTOM=HistopathologyGrade.commentText<br>Map:Lab=LabResult.referenceRangeComments<br>Map:SDTM IG=CO.COVAL<br><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Additional description of the observation result.&lt;br /&gt;&lt;br /&gt;For example, comments from the investigator regarding the condition of the specimen or any other observation.&lt;br /&gt;&lt;br /&gt;For example, comments in addition to the specimen condition from the central or performing laboratory describing the specimen.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>
+		</table>
+</div>		<div class="ItemBody" id="AssociationsToTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="20%" class="TableHeading">Element</td>
+					<td width="25%" class="TableHeading">Source Role</td>
+					<td width="25%" class="TableHeading">Target Role</td>
+					<td width="30%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA201.htm">PerformedObservation</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> resulted<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> producing<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top"><div class="ObjectDetailsNotes">&lt;p&gt;Each PerformedObservationResult always is a result of one PerformedObservation.&#160; Each PerformedObservation sometimes results in one or more PerformedObservationResult.&lt;br/&gt;&lt;/p&gt;</div>
+</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="20%" class="TableHeading">Element</td>
+					<td width="25%" class="TableHeading">Source Role</td>
+					<td width="25%" class="TableHeading">Target Role</td>
+					<td width="30%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA180.htm">AssessedResultRelationship</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> assessing<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> assessed<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top"><div class="ObjectDetailsNotes">&lt;p&gt;Each AssessedResultRelationship always has subject one PerformedObservationResult. Each PerformedObservationResult sometimes is the subject of one or more AssessedResultRelationship.&lt;br/&gt;&lt;/p&gt;</div>
+</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../EA2/EA85.htm">Report</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> describing<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> described<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top"><div class="ObjectDetailsNotes">&lt;p&gt;Each Report sometimes describes one or more PerformedObservationResult.&#160; Each PerformedObservationResult sometimes is described by one or more Report.&lt;br/&gt;&lt;/p&gt;</div>
+</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="../EA1/EA30.htm">EvaluatedResultRelationship</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> evaluating<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> evaluated<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top"><div class="ObjectDetailsNotes">&lt;p&gt;Each EvaluatedResultRelationship always evaluates one PerformedObservationResult. Each PerformedObservationResult sometimes is evaluated by one or more EvaluatedResultRelationship.&lt;br/&gt;&lt;/p&gt;</div>
+</td>
+				</tr>
+
+			</table>
+		</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+	<tr>
+			<td width="30%" class="TableHeading">Tag</td>
+			<td width="30%" class="TableHeading">Value</td>
+			<td width="40%" class="TableHeading">Details</td>
+	</tr>
+					<tr>
+				<td width="30%" class="TableRow" valign="top">Map:AE</td>
+				<td width="30%" class="TableRow" valign="top">CausalAssessment.methodCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:AE</td>
+				<td width="30%" class="TableRow" valign="top">InvestigativeSubject.gestationPeriod</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:AE</td>
+				<td width="30%" class="TableRow" valign="top">AdverseEvent.baselineDate</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:AE</td>
+				<td width="30%" class="TableRow" valign="top">AdverseEvent.bodyLocation</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:AE</td>
+				<td width="30%" class="TableRow" valign="top">Animal.overallStateOfHealthCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">Diagnosis.primaryAnatomicSiteCodeSystem</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">FemaleReproductiveCharacteristic.menopauseAge</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">Person.employmentStatusCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">Specimen.volumeUnitOfMeasureCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">CancerStage.stageCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">FemaleReproductiveCharacteristic.stillBirthCount</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">DiseaseResponse.commentText</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">Diagnosis.primaryAnatomicSiteCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">Specimen.volume</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">FemaleReproductiveCharacteristic.abortionIndicator</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">FemaleReproductiveCharacteristic.firstLiveBirthAge</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">FemaleReproductiveCharacteristic.liveBirthCount</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">Diagnosis.name</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">DiseaseResponse.responseCodeSystem</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">DiseaseResponse.courseDispositionCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">DiseaseResponse.responseCode</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">Participant.employmentStatusCode </td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">CancerStage.stageCodeSystem</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">FemaleReproductiveCharacteristic.menopauseStartDate</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:CTOM</td>
+				<td width="30%" class="TableRow" valign="top">DeathSummary.evaluationDate</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:Lab</td>
+				<td width="30%" class="TableRow" valign="top">LabResult.referenceTextList</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:Lab</td>
+				<td width="30%" class="TableRow" valign="top">LabResult.numericResult</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:Lab</td>
+				<td width="30%" class="TableRow" valign="top">LabResult.numericPrecision</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:Lab</td>
+				<td width="30%" class="TableRow" valign="top">LabResult.reportedResultStatus</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:Lab</td>
+				<td width="30%" class="TableRow" valign="top">LabResult.textResult</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:Lab</td>
+				<td width="30%" class="TableRow" valign="top">LabResult.referenceRangeComments</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:SDTM IG</td>
+				<td width="30%" class="TableRow" valign="top">MH.MHSTAT</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:SDTM IG</td>
+				<td width="30%" class="TableRow" valign="top">MH.MHSCAT</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:SDTM IG</td>
+				<td width="30%" class="TableRow" valign="top">MH.MHREASND</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:SDTM IG</td>
+				<td width="30%" class="TableRow" valign="top">MH.MHCAT</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>			<tr>
+				<td width="30%" class="TableRow" valign="top">Map:SDTM IG</td>
+				<td width="30%" class="TableRow" valign="top">CM.CMOCCUR</td>
+				<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+			</tr>
+</table>
+</div>		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="15%" class="TableHeading">Type</td>
+					<td width="15%" class="TableHeading">Connection</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA192.htm">PerformedClinicalResult</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedClinicalResult always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedClinicalResult.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA196.htm">PerformedHistopathology</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedHistopathology always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedHistopathology.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA191.htm">PerformedClinicalInterpretation</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedClinicalInterpretation always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedClinicalInterpretation.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA200.htm">PerformedMedicalHistoryResult</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedMedicalHistoryResult always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedMedicalHistoryResult.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA204.htm">PerformedProtocolDeviation</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedProtocolDeviation always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedProtocolDeviation.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA199.htm">PerformedLesionDescription</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedLesionDescription always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedLesionDescription.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA193.htm">PerformedDiagnosis</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedDiagnosis always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedDiagnosis.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA24.htm">AdverseEvent</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each AdverseEvent always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one AdverseEvent.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA36.htm">PerformedProductProblemDiscovery</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedProductProblemDiscovery always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedProductProblemDiscovery.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA27.htm">AdverseEventOutcomeResult</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each AdverseEventOutcomeResult always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one AdverseEventOutcomeResult.</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA1/EA35.htm">PerformedProductInvestigationResult</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">Each PerformedProductInvestigationResult always specializes one PerformedObservationResult. Each PerformedObservationResult sometimes is specialized by one PerformedProductInvestigationResult.</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
