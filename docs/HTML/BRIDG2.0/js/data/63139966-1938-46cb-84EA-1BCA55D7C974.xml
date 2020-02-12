@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("3.1", "1", "BRIDG Activity Diagrams -example", "EARoot/EA3/EA1170.htm", "4.png", "", "", "{C69EEEFC-6AB3-475e-A75C-FA64B3CB8381}", "Package");
+tocTab[tocTab.length] = new Array("3.2", "1", "BRIDG Sequence Diagram -example", "EARoot/EA3/EA1171.htm", "4.png", "", "", "{7F5369DD-DD96-470a-8D90-265D42E17719}", "Package");
+tocTab[tocTab.length] = new Array("3.3", "1", "BRIDG State Diagrams", "EARoot/EA3/EA1172.htm", "4.png", "", "", "{38A04862-F5CB-4849-9E11-CB0AD4BAE040}", "Package");
+tocTab[tocTab.length] = new Array("3.4", "1", "Business Context", "EARoot/EA3/EA1174.htm", "4.png", "", "", "{2A707A1F-3EBB-4b05-8822-2CF5A6EEE94F}", "Package");
+tocTab[tocTab.length] = new Array("3.5", "1", "Business Objects", "EARoot/EA3/EA1175.htm", "4.png", "", "", "{2ADEF1D5-975F-4db3-82DB-D9495E038625}", "Package");
+tocTab[tocTab.length] = new Array("3.6", "1", "Business Workflows", "EARoot/EA3/EA1176.htm", "4.png", "", "", "{AE048AB4-0F41-41ac-92FD-98F0A905E9FB}", "Package");

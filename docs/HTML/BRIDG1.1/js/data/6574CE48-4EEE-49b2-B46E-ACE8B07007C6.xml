@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("3.1.1.2.1:1", "", "Enroll Subject", "EARoot/EA3/EA1/EA1/EA2/EA1/EA452.htm", "181.png", "275", "0", "", "Activity diagram0","{C329BB2D-0B1C-41fd-94F0-88A251D021C0}");
+tocTab[tocTab.length] = new Array("3.1.1.2.1:2", "", "", "EARoot/EA3/EA1/EA1/EA2/EA1/EA456.htm", "99.png", "2951", "0", "", "UMLDiagram0","{C2BE92DF-948A-4b21-9A7A-C6F534211A75}");
+tocTab[tocTab.length] = new Array("3.1.1.2.1:3", "", "ActivityFinal", "EARoot/EA3/EA1/EA1/EA2/EA1/EA457.htm", "68.png", "2954", "0", "", "StateNode0","{23F65973-F54E-4efe-828F-57771B3B6893}");
+tocTab[tocTab.length] = new Array("3.1.1.2.1:4", "", "caBIG- Enroll Subject", "EARoot/EA3/EA1/EA1/EA2/EA1/EA459.htm", "21.png", "2953", "0", "", "Activity0","{169DC291-6F0E-4d5c-98B4-6DF108C4B8F0}");
+tocTab[tocTab.length] = new Array("3.1.1.2.1:5", "", "Patient is being enrolled", "EARoot/EA3/EA1/EA1/EA2/EA1/EA460.htm", "68.png", "2958", "0", "", "StateNode0","{CA26222A-E924-44f9-A58A-03B8C0AFD61A}");
+tocTab[tocTab.length] = new Array("3.1.1.2.1:6", "", "What is the context of the Enrollment task?", "EARoot/EA3/EA1/EA1/EA2/EA1/EA461.htm", "56.png", "2957", "0", "", "Decision0","{A6B76032-D9A8-426b-9E2E-DCC6551E0F43}");
+tocTab[tocTab.length] = new Array("3.1.1.2.1.1", "1", "caBIG Enroll Subject", "EARoot/EA3/EA1/EA1/EA2/EA1/EA458.htm", "4.png", "", "", "{C1F387FA-55EC-400e-B8A4-94912DCA65EC}", "Package");

@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("14.1:1", "", "Primary Forms", "EARoot/EA14/EA1/EA1422.htm", "188.png", "46", "0", "", "Custom diagram0","{2454BC00-A236-4d78-B6ED-A72AC62C8D36}");
+tocTab[tocTab.length] = new Array("14.1:2", "", "Screen1", "EARoot/EA14/EA1/EA1425.htm", "11.png", "177", "0", "", "Screen0","{C173806B-7035-4d8d-AA30-7AD2653D289F}");
+tocTab[tocTab.length] = new Array("14.1:3", "", "Screen2", "EARoot/EA14/EA1/EA1426.htm", "11.png", "178", "0", "", "Screen0","{9FB025FD-49CF-4f29-92A8-9A7EA7857B7F}");
+tocTab[tocTab.length] = new Array("14.1:4", "", "«combobox» UI Control", "EARoot/EA14/EA1/EA1427.htm", "16.png", "180", "177", "", "GUIElement0","{128D6FF9-1994-42a9-859D-6817243E74A6}");
+tocTab[tocTab.length] = new Array("14.1:5", "", "UI Control", "EARoot/EA14/EA1/EA1428.htm", "16.png", "179", "177", "", "GUIElement0","{0BBEBC24-4930-42d9-B717-0E07ADB36C6C}");

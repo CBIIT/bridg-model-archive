@@ -1,0 +1,420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>StudyProtocol</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">StudyProtocol  : public   class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/14/2005 4:52:38 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">9/17/2008 7:36:59 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Release 2.0</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{792E71ED-0AD4-4eaf-A499-8AFB57DB3E62}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1665.htm">View 1 - Protocol-Driven Research</a>, <a href="EA1669.htm">View 3 - Document</a>, <a href="EA1673.htm">View 5 - Complete - Classes,  Attributes,  Inheritance</a>, <a href="EA1671.htm">View 4 - Adverse Event</a>, <a href="EA1667.htm">View 2 - Study Design</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;p&gt;An action plan and execution of a pre-clinical or clinical study including all activities to test a particular hypothesis that is the basis of the study regarding the effectiveness of a particular treatment, drug, device, procedure, or care plan. This includes prevention, observational, therapeutic, and other types of studies that involve subjects. &lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;NOTE: The StudyProtocol class encapsulates the semantics of two &#39;views&#39; of the single concept &#39;study.&#39;&#160; The name &#39;StudyProtocol&#39; was chosen to both disambiguate the somewhat overloaded term &#39;protocol,&#39; as well as to emphasize that the class has two important relationships to the Document class, each of which emphasizes a different aspect of the overall semantics of the StudyProtocol class:&lt;br/&gt;&lt;/p&gt;&lt;p&gt;1). StudyProtocol is a sub-class of the Document class:&lt;br/&gt;&lt;/p&gt;&lt;p&gt;StudyProtocol is a sub-class of Document and, as such, inherits all of the basic characteristics of its parent.&#160; In particular, an instance can contain all of the definitions, specifications, and content of the various (logical) documents which collectively define a study, including (but not limited to) documents that describe the objective(s), background, and/or plan (including the design, methodology, statistical considerations, organization, or other supplemental materials that describe the required information of a Study.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;2). StudyProtocol is a collector for Document instances:&lt;br/&gt;&lt;/p&gt;&lt;p&gt;StudyProtocol is a collector for all various artifacts (including the protocol itself) which collectively define a study, including (but not limited to) specifications of planned, scheduled, or performed Activities, ObservationResults, Assessments, Analyses and their various inter-relationships.&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;NOTE:&#160; A StudyProtocol can be either Primary or Correlative.&#160; A StudyProtocol is considered to be Primary if it has one or more Correlative studies associated with it.&#160; A Correlative study extends the objectives or observations/conclusions of a Primary study, enrolling the same (or a subset of the same) subjects as were enrolled in the Primary study. (Correlative Studies are not modeled in BRIDG yet.)&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;NOTE: We are assuming that a document is a container, which may be physical or logical, with the six characteristics listed in the definition of the Document class.&#160; This class is the container for the Plan. &lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;NOTE: StudyProtocol describes the pre-study, study, and post-study portions of the plan. &lt;br/&gt;&lt;/p&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+			<li onClick="parent.toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="parent.toggleItem('Links');" id="LinksTitle">Other Links</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Attribute</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;phaseCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i>Alias:</i> Protocol Phase Code<br><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Coded designation of approval phase for a study protocol.&lt;font color=&quot;#ff0000&quot;&gt; &lt;/font&gt;&lt;br /&gt;&lt;br /&gt;For example, I, I/II, II, III, NA.&lt;br /&gt;&lt;br /&gt;NOTE: Studies are generally categorized into four (sometimes five) phases described separately herein. An investigational medicine or product may be evaluated in two or more phases simultaneously in different studies, and some studies may overlap two different phases. Phase 1: The initial introduction of an investigational new drug into humans. Phase 1 studies are typically closely monitored and may be conducted in patients or normal volunteer subjects.&nbsp;<WBR> Phase 2: Controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in patients with the disease or condition under study and to determine the common short-term side effects and risks associated with the drug. Phase 3: Studies are expanded controlled and uncontrolled trials. They are performed after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather the additional information about effectiveness and safety that is needed to evaluate the overall benefit-risk relationship of the drug and to provide an adequate basis for physician labeling. Phase 3b: Phase 3b studies are a sub category of phase 3 trials near the time of approval to elicit additional findings. Phase 4:&nbsp;<WBR> Concurrent with marketing approval, Food and Drug Administration (FDA) may seek agreement from the sponsor to conduct certain post-marketing (phase 4) studies to delineate additional information about the drug&#39;s risks, benefits, and optimal use. Phase 5: Post-marketing surveillance is sometimes referred to as Phase 5. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;intentCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i>Alias:</i> Protocol Type Code<br><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Code to identify a type of study protocol based upon the intent of the study&#39;s activities.&lt;br /&gt;&lt;br /&gt;For example, treatment studies test new treatments, new combinations of drugs, or new approaches to surgery or radiation therapy. Prevention studies look for better ways to prevent disease in people who have never had the disease or to prevent a disease from returning. These approaches may include medicines, vitamins, vaccines, minerals, or lifestyle changes. Diagnostic studies are conducted to find better tests or procedures for diagnosing a particular disease or condition. Screening studies test the best way to detect certain diseases or health conditions. Quality of Life studies (or Supportive Care trials) explore ways to improve comfort and the quality of life for individuals with a chronic illness.&nbsp;<WBR> 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public DSET<CD></i><br /><strong>&nbsp;&nbsp;diseaseCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i>Alias:</i> Protocol Disease Code<br><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Code to represent the condition that is the focus of the study. &lt;br /&gt;&lt;br /&gt;For example, in a study to examine risk factors for Lupus, might have as an inclusion criterion &quot;healthy volunteer&quot;, but the target condition code would be a Lupus SNOMED code.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public ST</i><br /><strong>&nbsp;&nbsp;populationDescription</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A text summary of subject characteristics, including inclusion and exclusion criteria and describes the population for which the study may be generalized. &lt;br /&gt;&lt;br /&gt;NOTE: This would include all subgroups as well.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;subjectTypeCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The target entity of the study of investigation. &lt;br /&gt;&lt;br /&gt;For example, in a clinical trial, the subject type would be &quot;human&quot;. Other studies could involve animals (rats, mice). 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public BL</i><br /><strong>&nbsp;&nbsp;blindedIndicator</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i>Alias:</i> Protocol Blinding Indicator<br><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Specifies whether a study protocol is blinded. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;blindingSchemaCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i>Alias:</i> Protocol Blinding Indicator<br><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The type of masking used on a study protocol to ensure that the results are not biased by the subjects or investigators.&lt;br /&gt;&lt;br /&gt;For example, double-blinded would indicate that both the investigator and the participant would not know whether the intervention was a placebo or an active therapeutic intervention. This will be drawn from a coded list of terms that define the blinding type. &lt;br /&gt;&lt;br /&gt;For example, Open Label, Double Blind, Single Blind, etc.&nbsp;<WBR> 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public BL</i><br /><strong>&nbsp;&nbsp;randomizedIndicator</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Specifies whether a study is randomized.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public BL</i><br /><strong>&nbsp;&nbsp;multiInstitutionIndicator</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i>Alias:</i> Multi-Institutional Protocol Indicator<br><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Specifies whether a protocol is being conducted at more than one site concurrently.&lt;br /&gt;&lt;br /&gt;NOTE: This could be conceived as derivable, but since it needs to be defined before study sites are associated with a study, it is needed here.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;confidentialityCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A code that controls the disclosure of information about a study protocol.&nbsp;<WBR> &lt;br /&gt;&lt;br /&gt;NOTE: This can be interpreted on a role-specific basis and therefore can facilitate role-based access control strategies. However it does not specify them.&nbsp;<WBR> Likewise it does not specify masking or related strategies but can be used to facilitate their implementation.&nbsp;<WBR>&nbsp;<WBR> 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;monitorCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i>Alias:</i> Protocol Monitor Protocol Monitor Code<br><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value to represent the monitor for a study protocol. &lt;br /&gt;&lt;br /&gt;For example, Cancer Therapy Evaluation Program (CTEP), CTEP-Clinical Trial Management System (CTMS), CTEP-Clinical Data Update System (CDUS) Complete, etc.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>
+		</table>
+</div>		<div class="ItemBody" id="AssociationsFromTable">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="20%" class="TableHeading">Element</td>
+					<td width="25%" class="TableHeading">Source Role</td>
+					<td width="25%" class="TableHeading">Target Role</td>
+					<td width="30%" class="TableHeading">Details</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1848.htm">StudyAuthor</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1847.htm">StudyAgent</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1712.htm">Document</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> disease<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1858.htm">StudySite</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1859.htm">StudySponsor</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1852.htm">StudyInvestigator</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1853.htm">StudyObective</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1850.htm">StudyCoordinatingCenter</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1693.htm">Arm</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="20%" class="TableRow" valign="top">
+						<a href="EA1681.htm">Activity</a><br />
+						Class &nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="20%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+					<td width="30%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="LinksTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="15%" class="TableHeading">Type</td>
+					<td width="15%" class="TableHeading">Connection</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1712.htm">Document</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Strong</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1712.htm">Document</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Generalization</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA1681.htm">Activity</a></td>
+					<td width="15%" class="TableRow" valign="top">Class</td>
+					<td width="15%" class="TableRow" valign="top">Strong</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

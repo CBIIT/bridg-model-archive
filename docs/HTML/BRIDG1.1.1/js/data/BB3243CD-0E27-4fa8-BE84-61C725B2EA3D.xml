@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("3.1.1.2.4:1", "", "Perform on-study protocol activities", "EARoot/EA3/EA1/EA1/EA2/EA4/EA529.htm", "181.png", "280", "0", "", "Activity diagram0","{BF8B971A-0100-42e0-8081-851E9F59C418}");
+tocTab[tocTab.length] = new Array("3.1.1.2.4:2", "", "ActivityFinal", "EARoot/EA3/EA1/EA1/EA2/EA4/EA533.htm", "68.png", "3023", "0", "", "StateNode0","{2749FCEE-F103-4eab-B254-D995FEEC2292}");
+tocTab[tocTab.length] = new Array("3.1.1.2.4:3", "", "caBIG - AE-Triggered Schedule Change", "EARoot/EA3/EA1/EA1/EA2/EA4/EA535.htm", "21.png", "3020", "0", "", "Activity0","{10F23578-F29C-4952-A0EF-A1268685D60D}");
+tocTab[tocTab.length] = new Array("3.1.1.2.4:4", "", "caBIG - Identify Potential Dose Changes", "EARoot/EA3/EA1/EA1/EA2/EA4/EA536.htm", "21.png", "3024", "0", "", "Activity0","{564D7C5A-01C9-4384-827D-C7151DE15E59}");
+tocTab[tocTab.length] = new Array("3.1.1.2.4:5", "", "Perform on-study protocol activities", "EARoot/EA3/EA1/EA1/EA2/EA4/EA538.htm", "68.png", "3022", "0", "", "StateNode0","{21A5F8EC-9DB5-48c3-B282-362FEEEAAD1E}");
+tocTab[tocTab.length] = new Array("3.1.1.2.4:6", "", "What is the context for on-study protocol activities?", "EARoot/EA3/EA1/EA1/EA2/EA4/EA539.htm", "56.png", "3026", "0", "", "Decision0","{E5DBE15E-D5F4-4b59-ABA8-5830654E0C77}");
+tocTab[tocTab.length] = new Array("3.1.1.2.4.1", "1", "caBIG - AE Triggered Schedule Change", "EARoot/EA3/EA1/EA1/EA2/EA4/EA534.htm", "4.png", "", "", "{B0C7C078-5A79-4c16-82A5-D866E94B62F7}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.2.4.2", "1", "caBIG- Identify Potential Dose Change", "EARoot/EA3/EA1/EA1/EA2/EA4/EA537.htm", "4.png", "", "", "{58CEBF02-57C6-4e4b-A945-9E1277CAFF4C}", "Package");

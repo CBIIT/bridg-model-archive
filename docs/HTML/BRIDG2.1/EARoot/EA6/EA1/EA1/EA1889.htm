@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>BRIDG Release 2.1 -- Static Classes::StudyRelationship</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">StudyRelationship  : public   class</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">8/22/2007 3:58:13 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">10/19/2008 2:48:35 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Release 2.1</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{B36025E0-920D-42cd-9E35-640A88420CDB}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1675.htm">View 6 - Complete - Classes,  Attributes,  Inheritance</a>, <a href="EA1673.htm">View 5 - Protocol Representation</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">&lt;p&gt;An abstract class whose subtypes are the specific rules governing relationships between classes.&lt;br/&gt;&lt;/p&gt;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">Attributes</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="40%" class="TableHeading">Attribute</td>
+			<td width="60%" class="TableHeading">Details</td>
+		</tr>
+						<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;typeCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A coded value specifying the meaning and purpose of every relationship instance. Each of its values implies specific constraints to what kinds of objects can be related and in which way.&lt;br /&gt;&lt;br /&gt;For example, decomposition (component), pre-condition, post-condition, sequel (replaces, modifies), attribution (cause and effect) would be types of relationships that could be coded. Neutrophil count is a component of complete blood count. &lt;br /&gt;The IV bag is weighed before and after the infusion. (sequel) &lt;br /&gt;Injection site swelling and redness are attributed to the injection. (attribution) 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public BL</i><br /><strong>&nbsp;&nbsp;inversionIndicator</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Specifies whether the StudyRelationship.type should be interpreted as if the roles of the source and target Activities were reversed. The inversion indicator is used when the meaning of StudyRelationship.type must be reversed. &lt;br /&gt;&lt;br /&gt;For example, a blood sample for population Pharmacokinetics analysis is drawn at Visit 4.&nbsp;<WBR> The dates and times of the most recent dose of study drug are to be recorded.&nbsp;<WBR> (This might use inversion code, since the drug concentration will depend on the preceding dose (dose is source, concentration is target), but the collection of the dose date/time is initiated when the blood sample is taken.)
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;contextControlCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A code that specifies how this relationship contributes to the context of the current activity, and whether it may be propagated to descendent activities whose association allows such propagation.&lt;br /&gt;&lt;br /&gt;For example, a blood sample is taken pre-dose, and the measurements made on that blood sample are considered pre-dose measurements. (If &quot;pre-dose&quot; is an association with the activity &quot;take blood sample&quot;, and the results of analyses on that blood sample are &quot;descendent activities&quot;, then the contextControl and contextCondutionIndicator would be used to show that the &quot;pre-dose&quot; association also applies to the results.)&nbsp;<WBR> 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public BL</i><br /><strong>&nbsp;&nbsp;contextConductionIndicator</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Specifies whether associations in the parent Activity are conducted across the relationship to the child Activity.&lt;br /&gt;&lt;br /&gt;For example, a blood sample is taken pre-dose, and the measurements made on that blood sample are considered pre-dose measurements.&nbsp;<WBR> 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public INT</i><br /><strong>&nbsp;&nbsp;sequenceNumber</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			An integer specifying the relative sequential or temporal ordering of this relationship among other like-types relationships having the same source.&lt;br /&gt;&lt;br /&gt;For example, in a StudyCell that has a chemotherapy StudySegment and a radiotherapy StudySegment, the sequence number indicates which StudySegment precedes the other.&lt;br /&gt;&lt;br /&gt; For example, for a Regulated Product Submission (RPS) this determines the order the submission unit should be processed. If a submission unit is received by the regulatory authority out of order, the sequence number tells the regulatory authority the order the submission units should be read.&lt;br /&gt;&lt;br /&gt;For example, a protocol document is submission in the original submission. In the first amendment that protocol document is withdrawn and the second amendment the protocol document is reactivated. We know that the protocol document should still be considered since the second amendment has a greater sequence number.&lt;br /&gt;&lt;br /&gt;For example, &quot;Walking one block&quot; is the 9th item of the &quot;Activities&quot; section of the SF-36 questionnaire 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public INT</i><br /><strong>&nbsp;&nbsp;priorityNumber</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			An integer specifying the relative preference for considering this relationship before other like-typed relationships having the same source activity.&lt;br /&gt;&lt;br /&gt;For example, for multiple criteria, this specifies which criteria are considered before others. For components with the same sequence number, it specifies which ones are considered before others. Among alternatives or options that are being chosen by humans, the priorityNumber specifies preference.&lt;br /&gt;Actions triggered by occurrence of a serious Adverse Event take precedence over actions in the normal schedule of assessments &amp; interventions.&lt;br /&gt;&lt;br /&gt;NOTE: Relationships with lower priorityNumber values are considered before and above those with higher values. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public PQ</i><br /><strong>&nbsp;&nbsp;pauseQuantity</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A quantity of time that should elapse between when an Activity is ready for execution and the actual beginning of the execution. &lt;br /&gt;&lt;br /&gt;For example, take a blood sample 15 minutes after administration of study drug or measure blood glucose 2 hours after each meal. &lt;br /&gt;
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;checkpointCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A code specifying when in the course of an Activity a precondition for the Activity is evaluated (e.g., before the Activity starts for the first time, before every repetition, after each repetition but not before the first, or throughout the entire time of the Activity).&lt;br /&gt;&lt;br /&gt;For example, at the end of the cycle, evaluate disease response, and decide whether to administer another cycle. Before administering the daily dose, check the conditions for continuing treatment, and continue only if those conditions are meant. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;splitCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A code specifying how branches in an action plan are selected among other branches.&lt;br /&gt;&lt;br /&gt;For example, ask the subject to complete the XYZ questionnaire while the lab results are being run. The review of adverse events and concomitant medications may be conducted at any time after the XYZ questionnaire has been completed.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;joinCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A code specifying how concurrent Activities are resynchronized in a parallel branch construct.&lt;br /&gt;&lt;br /&gt;For example, if the subject completes the XYZ questionnaire before the lab results arrive, the review of adverse events and concomitant medications may be conducted, but the physical examination should not take place until the subject has completed the XYZ questionnaire and the lab results have arrived. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public BL</i><br /><strong>&nbsp;&nbsp;negationIndicator</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Specifies whether the meaning of the link is negated.&lt;br /&gt;&lt;br /&gt;For example, do not administer further study drug if the subject experiences shortness of breath.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;conjunctionCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A code specifying the logical conjunction of the criteria among all the condition-links of Activities (e.g., and, or, exclusive-or).&lt;br /&gt;&lt;br /&gt;For example, fill out the &quot;Liver event&quot; report if the subject has an ALT value &gt; 3 times the upper limit of normal and a bilirubin value &gt; 1.5 times the upper limit of normal. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public BL</i><br /><strong>&nbsp;&nbsp;separableIndicator</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Specifies whether or not the source Activity is intended to be interpreted independently of the target Activity. The indicator cannot prevent an individual or application from separating the Activities, but indicates the author&#39;s desire and willingness to attest to the content of the source Activity if separated from the target Activity. Note that the default for this attribute will typically be &quot;TRUE&quot;. Also note that this attribute is orthogonal and unrelated to the RIM&#39;s context/inheritance mechanism. If the context of an Activity is propagated to nested Activities, it is assumed that those nested Activities are not intended to be interpreted without the propagated context.&lt;br /&gt;&lt;br /&gt;For example, the normal range for blood glucose depends on whether a subject was fasting when the blood sample was taken. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CS</i><br /><strong>&nbsp;&nbsp;subsetCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Indicates that the target of the relationship will be a filtered subset of the total related set of targets.&nbsp;<WBR> Used when there is a need to limit the number of components to the first, the last, the next, the total, the average or some other filtered or calculated subset.&lt;br /&gt;&lt;br /&gt;For example, the follow-up epoch starts 48 hours after the last dose of study drug. Take a blood sample for Pharmacokinetics analysis immediately prior to the 5th daily dose.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;uncertaintyCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			An indication whether the specific relationship between the source and target Activities has been asserted to be uncertain in any way.&lt;br /&gt;&lt;br /&gt;For example, an indication of how likely it is that the source Activity was caused by the cited target Performed Activity.&lt;br /&gt;&lt;br /&gt;For example, for adverse event in respect to CTEP and FAET, values may include: unrelated, unlikely, possible, probable, definite.&lt;br /&gt;&lt;br /&gt;For example, for adverse events in respect to SDTM & E2B, values may include:&nbsp;<WBR> related, possibly related, unlikely related, not related. 
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public ST</i><br /><strong>&nbsp;&nbsp;description</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The text naming or otherwise describing a given relationship.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public REAL</i><br /><strong>&nbsp;&nbsp;probability</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			The likelihood that an activity was caused by another activity.&lt;br /&gt;&lt;br /&gt;For example, 60% likelihood that an adverse event was caused by an activity that was performed on the subject.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public CD</i><br /><strong>&nbsp;&nbsp;evaluableExpressionCode</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			A computable logical expression that can involve temporal, clinical, and other operands.&nbsp;<WBR> It can be composed of sub expressions to create arbitrarily complex and recursive statements.&lt;br /&gt;&lt;br /&gt;For example, (&lt;2 weeks&gt; since &lt;last dose &gt;)&nbsp;<WBR> and (SysBP[now] &gt; 140 and DiaBP [now]&gt; 90)&lt;br /&gt;&lt;br /&gt;Note that the data type of this attribute is CD, reflecting the ability of the attribute to support the semantics of one or more distinct grammars for building evaluable expressions, as well as the consequent requirement that a system sending such an expression must identify the source grammar (including its’ version) to ensure that the receiving system parses the expression with the proper parser.&nbsp;<WBR> Thus, for example, an evaluable expression in the ‘TDM Markup Language&#39; (TDML) with the form &quot;IF X &gt; 12 THEN ~ EPOCH --TO +3 D ``PREVIOUS EPOCH&quot; would be carried in the CD data type properties as follows:&lt;br /&gt;&lt;br /&gt;Coding System:&nbsp;<WBR> TDML&lt;br /&gt;Version:&nbsp;<WBR> 1.1&lt;br /&gt;Original Text:&nbsp;<WBR>&nbsp;<WBR> If X is less than 12, change the current Epoch to begin 3 days after the end of the previous Epoch&lt;br /&gt;Code:&nbsp;<WBR> IF X &gt; 12 THEN ~ EPOCH --TO +3 D ``PREVIOUS EPOCH
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>			<tr>
+				<td width="40%" class="TableRow" valign="top"><i>public ST</i><br /><strong>&nbsp;&nbsp;comment</strong></td>
+				<td width="60%" class="TableRow" valign="top"><i></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>Notes: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			Additional description of the relationship.
+		</td>
+	</tr>
+</table></div>
+</td>
+			</tr>
+		</table>
+</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>

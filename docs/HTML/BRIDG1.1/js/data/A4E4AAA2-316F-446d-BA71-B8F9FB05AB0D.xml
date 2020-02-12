@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("3.1.1.1.1", "1", "High-Level View of Protocol-Driven Research", "EARoot/EA3/EA1/EA1/EA1/EA342.htm", "4.png", "", "", "{7FD1B1E8-159D-44c2-AC53-97E824C3FA26}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.1.2", "1", "Second Level - Conduct Trial", "EARoot/EA3/EA1/EA1/EA1/EA343.htm", "4.png", "", "", "{3670CB95-9350-4796-A7B3-9A818699D891}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.1.3", "1", "Second Level - Plan Protocol", "EARoot/EA3/EA1/EA1/EA1/EA344.htm", "4.png", "", "", "{0880A8BE-CF35-4ac5-BB2A-7368E3A7A51F}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.1.4", "1", "Third Level - Manage Data", "EARoot/EA3/EA1/EA1/EA1/EA345.htm", "4.png", "", "", "{63AF932D-2726-4703-BDB4-A7F9FA128D46}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.1.5", "1", "Third Level - Manage Study", "EARoot/EA3/EA1/EA1/EA1/EA346.htm", "4.png", "", "", "{CBE2F0B1-DE82-4207-85BE-2B5C74D51CEF}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.1.6", "1", "Third Level - Manage Subjects", "EARoot/EA3/EA1/EA1/EA1/EA347.htm", "4.png", "", "", "{5E5DBDFB-6990-4629-A71E-0D25F99D20D4}", "Package");

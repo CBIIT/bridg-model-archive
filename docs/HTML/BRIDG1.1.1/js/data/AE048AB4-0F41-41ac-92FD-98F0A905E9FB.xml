@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("3.6:1", "", "Business Workflows", "EARoot/EA3/EA6/EA737.htm", "189.png", "7", "0", "", "Analysis diagram0","{60A81358-7F07-4f2e-9645-95BEC9FD7A86}");
+tocTab[tocTab.length] = new Array("3.6:2", "", "Event1", "EARoot/EA3/EA6/EA739.htm", "24.png", "26", "0", "", "Event0","{DE2CE973-AC38-4b2c-957C-69F7DBA46F31}");
+tocTab[tocTab.length] = new Array("3.6:3", "", "Input", "EARoot/EA3/EA6/EA740.htm", "25.png", "29", "0", "", "Object0","{0FC468C2-E391-43d4-8BE6-021FCAA62C30}");
+tocTab[tocTab.length] = new Array("3.6:4", "", "«process» Process", "EARoot/EA3/EA6/EA742.htm", "21.png", "30", "0", "", "Activity0","{FA80E3F4-589F-47dc-B5C8-26F0C550D875}");
+tocTab[tocTab.length] = new Array("3.6:5", "", "Result", "EARoot/EA3/EA6/EA743.htm", "25.png", "28", "0", "", "Object0","{1DD9BC49-1970-4728-82B4-3CF007543D9E}");

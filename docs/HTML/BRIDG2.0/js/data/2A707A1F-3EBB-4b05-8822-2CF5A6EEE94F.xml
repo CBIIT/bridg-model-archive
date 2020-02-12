@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("3.4:1", "", "Business Context", "EARoot/EA3/EA4/EA1550.htm", "189.png", "2", "0", "", "Analysis diagram0","{EDED3F2A-FF96-4e25-B67C-8314837EC030}");
+tocTab[tocTab.length] = new Array("3.4.1", "1", "Strategies", "EARoot/EA3/EA4/EA1556.htm", "4.png", "", "", "{4AB6BF29-F0DD-45cb-8074-BCF46E929BA8}", "Package");
+tocTab[tocTab.length] = new Array("3.4.2", "1", "Stakeholders", "EARoot/EA3/EA4/EA1557.htm", "4.png", "", "", "{63679281-1219-4b29-B5CC-0788A5BA16F0}", "Package");
+tocTab[tocTab.length] = new Array("3.4.3", "1", "Topology", "EARoot/EA3/EA4/EA1558.htm", "4.png", "", "", "{947D2937-9539-4cb8-85FA-E4CEBF7FAF85}", "Package");

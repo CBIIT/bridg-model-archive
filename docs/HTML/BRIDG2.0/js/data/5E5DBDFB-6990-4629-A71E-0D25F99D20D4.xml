@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("3.1.1.1.6:1", "", "Third Level - Manage Subjects", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1266.htm", "181.png", "274", "0", "", "Activity diagram0","{5B81C68B-155F-4e96-8328-D0EB19865FD9}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:2", "", "Collect data", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1271.htm", "21.png", "2939", "0", "", "Activity0","{C0445B87-793C-4a92-9E86-D9838D6E5043}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:3", "", "Determine patient eligibility", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1272.htm", "21.png", "2929", "0", "", "Activity0","{081A3A5A-A260-4e0f-81FA-1A56E6B3005B}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:4", "", "Eligible?", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1273.htm", "56.png", "2936", "0", "", "Decision0","{9AD0E702-F621-4b34-9068-2ECB542C03F3}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:5", "", "Enroll Subject", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1274.htm", "21.png", "2937", "0", "", "Activity0","{A32687A8-B9FF-4fec-8B84-326F7A7E4BE1}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:6", "", "Mark patient as screen failure", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1275.htm", "21.png", "2930", "0", "", "Activity0","{20A69165-882D-43d1-98F6-CBCA671935A3}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:7", "", "Patient not enrolled", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1276.htm", "68.png", "2942", "0", "", "StateNode0","{D8B7DF2D-A601-416e-8F8E-84BA840991D9}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:8", "", "Perform baseline study procedures", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1277.htm", "21.png", "2944", "0", "", "Activity0","{ECCF871E-4370-4ad4-A013-39535B4EC4C4}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:9", "", "Perform follow-up activities", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1278.htm", "21.png", "2941", "0", "", "Activity0","{C3A1F6DC-2B40-4476-973F-B07FB463BE6A}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:10", "", "Perform on-study protocol activities", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1279.htm", "21.png", "2943", "0", "", "Activity0","{DFC3B4C0-3D43-4e90-8FC9-8B7C7C2435B9}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:11", "", "Ready for data locking", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1280.htm", "69.png", "2932", "0", "", "StateNode0","{46D5022A-3973-497f-AE09-B75B2F746819}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:12", "", "Report any adverse events", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1281.htm", "21.png", "2940", "0", "", "Activity0","{C33AD81F-C8CB-42a4-9DAC-EB7CA10974F6}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:13", "", "Screen patient", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1282.htm", "21.png", "2931", "0", "", "Activity0","{252FA4ED-9A6B-40ec-9832-C2A3D272244A}");
+tocTab[tocTab.length] = new Array("3.1.1.1.6:14", "", "Study is being conducted", "EARoot/EA3/EA1/EA1/EA1/EA6/EA1283.htm", "68.png", "2938", "0", "", "StateNode0","{B950E094-DE5C-4d39-9E2F-3BB3749DBF40}");

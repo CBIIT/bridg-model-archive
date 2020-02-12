@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("3.1.1.2.1", "1", "Enroll Subject", "EARoot/EA3/EA1/EA1/EA2/EA140.htm", "4.png", "", "", "{6574CE48-4EEE-49b2-B46E-ACE8B07007C6}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.2.2", "1", "Manage personnel resources", "EARoot/EA3/EA1/EA1/EA2/EA141.htm", "4.png", "", "", "{B7DDCF26-870C-40da-8F8F-72309F5CF021}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.2.3", "1", "Perform interim data analysis", "EARoot/EA3/EA1/EA1/EA2/EA142.htm", "4.png", "", "", "{E83897DF-A4EA-4762-A7A6-BEB5761B1657}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.2.4", "1", "Perform on-study protocol activities", "EARoot/EA3/EA1/EA1/EA2/EA143.htm", "4.png", "", "", "{BB3243CD-0E27-4fa8-BE84-61C725B2EA3D}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.2.5", "1", "Perform regulatory processing", "EARoot/EA3/EA1/EA1/EA2/EA144.htm", "4.png", "", "", "{E2AE147B-B3D0-40e8-8C26-31ABF25B6D2F}", "Package");
+tocTab[tocTab.length] = new Array("3.1.1.2.6", "1", "Transfer data between systems", "EARoot/EA3/EA1/EA1/EA2/EA145.htm", "4.png", "", "", "{03205DAF-BFD6-4ee1-A510-F73F9163D0F1}", "Package");

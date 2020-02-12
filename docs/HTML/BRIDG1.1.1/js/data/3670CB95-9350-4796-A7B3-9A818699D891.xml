@@ -1,0 +1,9 @@
+tocTab[tocTab.length] = new Array("3.1.1.1.2:1", "", "Second Level - Conduct Trial", "EARoot/EA3/EA1/EA1/EA1/EA2/EA368.htm", "181.png", "270", "0", "", "Activity diagram0","{ECB9710F-5F1C-44c1-81AF-B4B6D2E6E9B2}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:2", "", "Lock study data", "EARoot/EA3/EA1/EA1/EA1/EA2/EA372.htm", "21.png", "2877", "0", "", "Activity0","{27541306-E477-45ac-A85F-AF4807B523ED}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:3", "", "Manage Study", "EARoot/EA3/EA1/EA1/EA1/EA2/EA373.htm", "21.png", "2883", "0", "", "Activity0","{BC2F1161-14B4-4108-A21C-BE1B5E75A398}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:4", "", "Manage Subjects", "EARoot/EA3/EA1/EA1/EA1/EA2/EA374.htm", "21.png", "2886", "0", "", "Activity0","{EDB13EF8-6E72-44fc-B194-E7392C95A229}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:5", "", "Study data is locked", "EARoot/EA3/EA1/EA1/EA1/EA2/EA375.htm", "68.png", "2879", "0", "", "StateNode0","{3FFA6579-2A46-4b8d-9C87-0835D71AA08A}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:6", "", "Study is open for enrollment", "EARoot/EA3/EA1/EA1/EA1/EA2/EA376.htm", "68.png", "2884", "0", "", "StateNode0","{CEE7D39A-391B-463d-B442-1F4D73AA1CA0}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:7", "", "Third Level - Manage Data", "EARoot/EA3/EA1/EA1/EA1/EA2/EA377.htm", "21.png", "2880", "0", "", "Activity0","{59066414-8695-4edb-A4AC-B23FF36380E5}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:8", "", "Third Level - Manage Study", "EARoot/EA3/EA1/EA1/EA1/EA2/EA378.htm", "21.png", "2878", "0", "", "Activity0","{37FA88E1-3479-4bfc-8624-20497629C161}");
+tocTab[tocTab.length] = new Array("3.1.1.1.2:9", "", "Third Level - Manage Subjects", "EARoot/EA3/EA1/EA1/EA1/EA2/EA379.htm", "21.png", "2882", "0", "", "Activity0","{BBD97BBD-5CAC-4131-A73F-7E67BD16B9BE}");

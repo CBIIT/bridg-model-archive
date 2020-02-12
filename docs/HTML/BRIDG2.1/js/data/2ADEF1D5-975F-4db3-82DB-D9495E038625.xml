@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("3.5:1", "", "Business Objects", "EARoot/EA3/EA5/EA1570.htm", "189.png", "6", "0", "", "Analysis diagram0","{09479678-0B60-4400-9AD3-433B0CC6DC29}");
+tocTab[tocTab.length] = new Array("3.5:2", "", "«entity» datastore", "EARoot/EA3/EA5/EA1572.htm", "25.png", "24", "0", "", "Object0","{EBAF38A9-8999-4d64-8EAB-45AF5901B61C}");
+tocTab[tocTab.length] = new Array("3.5:3", "", "«information» report1", "EARoot/EA3/EA5/EA1574.htm", "25.png", "25", "0", "", "Object0","{63067646-9345-40e2-9B25-407467816EAF}");

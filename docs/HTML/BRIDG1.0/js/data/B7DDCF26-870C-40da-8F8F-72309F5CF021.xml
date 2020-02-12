@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("3.1.1.2.2:1", "", "Manage personnel resources", "EARoot/EA3/EA1/EA1/EA2/EA2/EA196.htm", "181.png", "277", "0", "", "Activity diagram0","{15811CB2-ECAF-4d2a-9D4A-73ADE3E885FA}");
+tocTab[tocTab.length] = new Array("3.1.1.2.2:2", "", "ActivityFinal", "EARoot/EA3/EA1/EA1/EA2/EA2/EA198.htm", "68.png", "2999", "0", "", "StateNode0","{843EDC60-FBDB-48c5-BBDA-EA391AC57060}");
+tocTab[tocTab.length] = new Array("3.1.1.2.2:3", "", "ActivityInitial", "EARoot/EA3/EA1/EA1/EA2/EA2/EA199.htm", "68.png", "2998", "0", "", "StateNode0","{4D89A4E5-7934-4211-801D-D0FA944CE04C}");
+tocTab[tocTab.length] = new Array("3.1.1.2.2:4", "", "caBIG - Quantify CRA Workload", "EARoot/EA3/EA1/EA1/EA2/EA2/EA200.htm", "21.png", "3000", "0", "", "Activity0","{AF89757F-6717-4de6-96A7-7F2E62687A1A}");
+tocTab[tocTab.length] = new Array("3.1.1.2.2:5", "", "what is the context?", "EARoot/EA3/EA1/EA1/EA2/EA2/EA202.htm", "56.png", "3001", "0", "", "Decision0","{D625B1A0-A326-43ca-AB96-28A7B8621703}");
+tocTab[tocTab.length] = new Array("3.1.1.2.2.1", "1", "caBIG - Workload", "EARoot/EA3/EA1/EA1/EA2/EA2/EA201.htm", "4.png", "", "", "{81ED6DB5-2185-40a1-9110-FEB1555BCF9D}", "Package");

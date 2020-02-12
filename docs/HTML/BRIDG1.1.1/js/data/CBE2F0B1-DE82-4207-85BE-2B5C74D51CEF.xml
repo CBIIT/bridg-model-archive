@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("3.1.1.1.5:1", "", "Third Level - Manage Study", "EARoot/EA3/EA1/EA1/EA1/EA5/EA419.htm", "181.png", "273", "0", "", "Activity diagram0","{C7354BEC-342D-43a6-95E8-0B43B5A8A7FD}");
+tocTab[tocTab.length] = new Array("3.1.1.1.5:2", "", "Close out study", "EARoot/EA3/EA1/EA1/EA1/EA5/EA423.htm", "21.png", "2926", "0", "", "Activity0","{CFA89DFC-02D7-4151-B931-F7E6AD44AAA4}");
+tocTab[tocTab.length] = new Array("3.1.1.1.5:3", "", "Manage clinical supplies  (e.g. drug, and lab supplies)", "EARoot/EA3/EA1/EA1/EA1/EA5/EA424.htm", "21.png", "2924", "0", "", "Activity0","{B5261137-9F1A-439b-AA95-E0AC00C4C0F1}");
+tocTab[tocTab.length] = new Array("3.1.1.1.5:4", "", "Manage personnel resources", "EARoot/EA3/EA1/EA1/EA1/EA5/EA425.htm", "21.png", "2927", "0", "", "Activity0","{DD1B0F29-E489-42c6-BDE1-1B3A1A26DF99}");
+tocTab[tocTab.length] = new Array("3.1.1.1.5:5", "", "Perform regulatory processing", "EARoot/EA3/EA1/EA1/EA1/EA5/EA426.htm", "21.png", "2922", "0", "", "Activity0","{86427E23-C54E-4dcb-985B-83B3D720A0A2}");
+tocTab[tocTab.length] = new Array("3.1.1.1.5:6", "", "Perform safety monitoring activities", "EARoot/EA3/EA1/EA1/EA1/EA5/EA427.htm", "21.png", "2928", "0", "", "Activity0","{FEEA5646-4531-41ca-A591-F55D82D01E9C}");
